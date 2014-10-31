@@ -1,0 +1,16 @@
+doctype html
+html(ng-app="poly-datepicker")
+  head
+    include partials/header
+  body
+    .container
+
+      - formName = 'ComponentsForm'
+      form(name=formName, ng-cloak="true")
+        .row
+          .col-md-6
+            label(for="dateInput19") dateInput
+              date-input(format="dd/mm/yyyy")
+                input(name="dateInput" id="dateInput19" ng-model="dateInput19" autocomplete="dateInput" type="dateInput" placeholder="dateInput" value="test" ng-required="true" class="form-control")
+
+    include partials/footer
