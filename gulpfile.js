@@ -132,7 +132,7 @@ gulp.task('lib', function() {
     .pipe(plumber({
       errorHandler: handleError
     }))
-    .pipe(myCoffee('_lib', 'poly-datepicker.min.js'));
+    .pipe(myCoffee('_lib', 'poly-form-datepicker.min.js'));
 
   gulp.src(dependencies)
     return browserify()
@@ -142,7 +142,7 @@ gulp.task('lib', function() {
           console.log(err.message);
           this.end();
         })
-      .pipe(source('poly-datepicker-lib.min.js'))
+      .pipe(source('poly-form-datepicker-lib.min.js'))
       .pipe(duration('vendor'))
       .pipe(buffer())
       .pipe(gulpif(env === PRODUCTION, uglify()))

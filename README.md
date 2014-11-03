@@ -1,4 +1,4 @@
-poly-datepicker
+poly-form-datepicker
 ============
 
 dependencies:

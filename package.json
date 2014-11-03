@@ -1,18 +1,18 @@
 {
-  "name": "poly-datepicker",
+  "name": "poly-form-datepicker",
   "version": "0.1.0",
   "description": "Angular wrapper for bootstrap-datepicker",
   "main": "_src/coffee/main.coffee",
-  "main.scss": "_src/sass/poly-datepicker.scss",
+  "main.scss": "_src/sass/poly-form-datepicker.scss",
   "author": "Harris Sidiropoulos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/polyptychon/poly-datepicker/issues"
+    "url": "https://github.com/polyptychon/poly-form-datepicker/issues"
   },
-  "homepage": "https://github.com/polyptychon/poly-datepicker",
+  "homepage": "https://github.com/polyptychon/poly-form-datepicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/polyptychon/poly-datepicker.git"
+    "url": "https://github.com/polyptychon/poly-form-datepicker.git"
   },
   "browserify": {
     "transform": [
