@@ -23,8 +23,6 @@ Add a stylesheet to your `index.html` head:
 <link rel="stylesheet" href="/node_modules/poly-form-datepicker/_lib/poly-form-datepicker.css">
 ```
 
-Copy fonts from `/node_modules/poly-form-datepicker/_src/fonts/` to your assets
-
 Add a `<script>` to your `index.html`:
 
 ```html
@@ -53,8 +51,6 @@ Add a stylesheet to your `index.html` head:
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="/bower_components/poly-form-datepicker/_lib/poly-form-datepicker.css">
 ```
-
-Copy fonts from `/bower_components/poly-form-datepicker/_src/fonts/` to your assets
 
 Add a `<script>` to your `index.html`:
 
