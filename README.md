@@ -74,5 +74,7 @@ angular.module('myApp', ['poly-form-datepicker']);
 ## Documentation
 
 ```html
-
+<date-input format="dd/mm/yyyy">
+  <input name="dateInput" id="dateInput_id" ng-model="myForm.variable" type="dateInput" ng-required="true" class="form-control">
+</date-input>
 ```
