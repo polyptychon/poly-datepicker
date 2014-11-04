@@ -2,6 +2,8 @@
 
 This directive allows you to enhance your input elements with behaviour from the [bootstrap-datepicker](http://bootstrap-datepicker.readthedocs.org/en/release/) library.
 
+Demo: http://polyptychon.github.io/poly-form-datepicker
+
 # Requirements
 
 - [AngularJS](http://angularjs.org/)
