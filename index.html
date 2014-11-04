@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="poly-form-datepicker">
+  <head>
+    <title>Example</title>
+    <meta name="description" content="Example">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/poly-form-datepicker/lib/css/poly-form-datepicker.css">
+  </head>
+  <body>
+    <div class="container">
+      <form name="ComponentsForm" ng-cloak="true">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="dateInput19">dateInput
+              <date-input format="dd/mm/yyyy">
+                <input name="dateInput" id="dateInput19" ng-model="dateInput19" autocomplete="dateInput" type="dateInput" placeholder="dateInput" value="test" ng-required="true" class="form-control">
+              </date-input>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--script(src="assets/js/vendor.js")-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+    <script src="bower_components/poly-form-datepicker/lib/js/poly-form-datepicker.min.js"></script>
+  </body>
+</html>
