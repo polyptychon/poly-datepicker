@@ -3,6 +3,7 @@
 .sass-cache
 
 node_modules
+bower_components
 builds
 /**/rev-manifest.json
 test/bundle-tests.js

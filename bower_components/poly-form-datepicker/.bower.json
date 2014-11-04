@@ -1,0 +1,14 @@
+{
+  "name": "poly-form-datepicker",
+  "homepage": "https://github.com/polyptychon/poly-form-datepicker",
+  "_release": "df4507bc72",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "df4507bc7256e94876799f031ad30b1c83175ecf"
+  },
+  "_source": "git://github.com/polyptychon/poly-form-datepicker.git",
+  "_target": "*",
+  "_originalSource": "polyptychon/poly-form-datepicker",
+  "_direct": true
+}
